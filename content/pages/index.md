@@ -35,7 +35,7 @@ sections:
     subtitle: ''
     plans:
       - type: PricingPlan
-        title: Developers
+        title: Basic
         price: Free
         details: No credit card required
         description: >-
