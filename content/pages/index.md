@@ -7,5 +7,6 @@ seo:
   metaDescription: Lucra Budgeting - Budgeting made simple
   socialImage: /images/main-hero.jpg
   type: Seo
+  addTitleSuffix: true
 type: PageLayout
 ---
