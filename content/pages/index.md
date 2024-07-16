@@ -12,7 +12,8 @@ sections:
     actions: []
     media:
       type: ImageBlock
-      url: /images/hero3.svg
+      url: >-
+        http://res.cloudinary.com/dr8cg8xmb/image/upload/v1721145934/desktop-mobile-preview.png
       altText: Dope design preview
     badge:
       type: Badge
