@@ -16,7 +16,7 @@
     "secondaryLinks": [
         {
             "type": "Button",
-            "label": "Get started",
+            "label": "View our Dev Environment",
             "altText": "",
             "url": "https://app.dev.lucrabudgeting.com/",
             "showIcon": false,
