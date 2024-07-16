@@ -27,7 +27,7 @@ sections:
   - type: PricingSection
     title:
       type: TitleBlock
-      text: Flexible Pricing
+      text: Transparent Pricing
       color: text-dark
       styles:
         self:
