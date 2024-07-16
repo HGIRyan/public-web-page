@@ -1,7 +1,29 @@
 ---
 title: Home
 slug: /
-sections: []
+sections:
+  - type: GenericSection
+    title:
+      type: TitleBlock
+      text: Coming Soon
+      color: text-dark
+    subtitle: ''
+    text: ''
+    actions: []
+    media:
+      type: ImageBlock
+      url: >-
+        http://res.cloudinary.com/dr8cg8xmb/image/upload/v1721145934/desktop-mobile-preview.png
+      altText: Dope design preview
+    badge:
+      type: Badge
+      label: Were excited for you to see
+      color: text-primary
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        alignItems: center
+        flexDirection: row-reverse
 seo:
   metaTitle: Home - Lucra Budgeting
   metaDescription: Lucra Budgeting - Budgeting made simple

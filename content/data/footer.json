@@ -1,10 +1,10 @@
 {
     "logo": {
-        "url": "/images/logo-white.svg",
-        "altText": "Logo light",
+        "url": "http://res.cloudinary.com/dr8cg8xmb/image/upload/v1716073237/site-images/logo-primary.png",
+        "altText": "Lucra Logo Dark",
         "type": "ImageBlock"
     },
-    "text": "A description of your brand",
+    "text": "Budgeting made simple\n",
     "primaryLinks": {
         "title": "Product",
         "links": [
@@ -61,27 +61,9 @@
     },
     "socialLinks": [
         {
-            "altText": "GitHub link",
-            "url": "https://github.com/netlify",
-            "icon": "github",
-            "type": "Social"
-        },
-        {
-            "altText": "Twitter link",
-            "url": "https://twitter.com/netlify",
-            "icon": "twitter",
-            "type": "Social"
-        },
-        {
             "altText": "LinkedIn link",
             "url": "https://www.linkedin.com/company/netlify",
             "icon": "linkedin",
-            "type": "Social"
-        },
-        {
-            "altText": "Email link",
-            "url": "/",
-            "icon": "mail",
             "type": "Social"
         }
     ],
@@ -103,7 +85,7 @@
             "type": "Link"
         }
     ],
-    "copyrightText": "Powered by [Netlify Create](https://www.netlify.com/platform/create/)",
+    "copyrightText": "Financed by Lucra Budgeting\n",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }
