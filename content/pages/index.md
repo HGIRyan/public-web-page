@@ -32,7 +32,7 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: This is the subtitle for the pricing section
+    subtitle: ''
     plans:
       - type: PricingPlan
         title: Developers
