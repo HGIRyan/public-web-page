@@ -37,7 +37,7 @@ sections:
       - type: PricingPlan
         title: Basic
         price: $5
-        details: Per Month after 30 day trial
+        details: Per Month (after 30 day trial)
         description: >-
           Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
           accusantium doloremque.
