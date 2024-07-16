@@ -4,7 +4,7 @@ slug: /
 sections: []
 seo:
   metaTitle: Home - Lucra Budgeting
-  metaDescription: This demo site is built with Netlify Create.
+  metaDescription: Lucra Budgeting - Budgeting made simple
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
