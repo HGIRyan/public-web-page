@@ -81,7 +81,8 @@ sections:
           - Feature four
         image:
           type: ImageBlock
-          url: /images/abstract-feature2.svg
+          url: >-
+            https://res.cloudinary.com/dr8cg8xmb/image/upload/v1716073594/site-images/login-mobile-banner.png
           altText: Pricing plan 2
         actions:
           - type: Button
