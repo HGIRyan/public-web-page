@@ -13,9 +13,21 @@
         "type": "ImageBlock"
     },
     "primaryLinks": [],
-    "secondaryLinks": [],
+    "secondaryLinks": [
+        {
+            "type": "Button",
+            "label": "View our Dev Environment",
+            "altText": "",
+            "url": "https://app.dev.lucrabudgeting.com/",
+            "showIcon": false,
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "elementId": ""
+        }
+    ],
     "variant": "logo-left-primary-nav-centered",
-    "colors": "bg-light-fg-dark",
+    "colors": "bg-neutral-fg-dark",
     "type": "Header",
     "title": "Lucra"
 }

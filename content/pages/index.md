@@ -24,6 +24,97 @@ sections:
       self:
         alignItems: center
         flexDirection: row-reverse
+  - type: PricingSection
+    title:
+      type: TitleBlock
+      text: Transparent Pricing
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+    subtitle: ''
+    plans:
+      - type: PricingPlan
+        title: Basic
+        price: $5
+        details: Per Month (after 30 day trial)
+        description: >-
+          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
+          accusantium doloremque.
+        features:
+          - Feature one
+          - Feature two
+          - Feature three
+          - Feature four
+        image:
+          type: ImageBlock
+          url: >-
+            https://res.cloudinary.com/dr8cg8xmb/image/upload/v1716073594/site-images/login-mobile-banner.png
+          altText: Pricing plan 1
+        actions:
+          - type: Button
+            label: Try Now
+            url: /
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pb-10
+              - pl-6
+              - pr-6
+            borderRadius: large
+      - type: PricingPlan
+        title: Advanced
+        price: $12
+        details: Per Month (After 30 day trial)
+        description: >-
+          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
+          accusantium doloremque.
+        features:
+          - Feature one
+          - Feature two
+          - Feature three
+          - Feature four
+        image:
+          type: ImageBlock
+          url: >-
+            https://res.cloudinary.com/dr8cg8xmb/image/upload/v1716073594/site-images/login-mobile-banner.png
+          altText: Pricing plan 2
+        actions:
+          - type: Button
+            label: Sign Up Now
+            url: /
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pb-10
+              - pl-6
+              - pr-6
+            borderRadius: large
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: center
+      subtitle:
+        textAlign: center
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
+      url: >-
+        https://res.cloudinary.com/dr8cg8xmb/image/upload/v1716072498/site-images/login-desktop-banner.png
 seo:
   metaTitle: Home - Lucra Budgeting
   metaDescription: Lucra Budgeting - Budgeting made simple
