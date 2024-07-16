@@ -69,7 +69,7 @@ sections:
       - type: PricingPlan
         title: Advanced
         price: $12
-        details: per month
+        details: Per Month (After 30 day trial)
         description: >-
           Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
           accusantium doloremque.
