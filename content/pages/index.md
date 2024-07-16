@@ -118,7 +118,7 @@ sections:
 seo:
   metaTitle: Home - Lucra Budgeting
   metaDescription: Lucra Budgeting - Budgeting made simple
-  socialImage: /images/main-hero.jpg
+  socialImage: /images/Screenshot 2024-07-16 at 10.17.56 AM.png
   type: Seo
   addTitleSuffix: false
 type: PageLayout
