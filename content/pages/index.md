@@ -5,6 +5,30 @@ sections:
   - type: GenericSection
     title:
       type: TitleBlock
+      text: The simplest way to organize your finances
+      color: text-primary
+    subtitle: ''
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Neque volutpat ac
+      tincidunt vitae.
+    actions:
+      - type: Button
+        label: Get started
+        altText: ''
+        url: /
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        alignItems: center
+  - type: GenericSection
+    title:
+      type: TitleBlock
       text: Coming Soon
       color: text-dark
     subtitle: ''
@@ -116,7 +140,7 @@ sections:
       url: >-
         https://res.cloudinary.com/dr8cg8xmb/image/upload/v1716072498/site-images/login-desktop-banner.png
 seo:
-  metaTitle: Home - Lucra Budgeting
+  metaTitle: Lucra Budgeting
   metaDescription: Lucra Budgeting - Budgeting made simple
   socialImage: /images/Screenshot 2024-07-16 at 10.17.56 AM.png
   type: Seo

@@ -1,22 +1,32 @@
 {
     "logo": {
-        "url": "https://res.cloudinary.com/dr8cg8xmb/image/upload/v1721145217/circle-logo.png",
+        "url": "https://res.cloudinary.com/dr8cg8xmb/image/upload/v1721259232/logo-primary.png",
         "altText": "Lucra Logo",
         "styles": {
             "self": {
-                "margin": [
-                    "mr-3"
-                ],
+                "margin": ["mr-3"],
                 "borderWidth": 0
             }
         },
         "type": "ImageBlock"
     },
-    "primaryLinks": [],
+    "primaryLinks": [
+        {
+            "type": "Button",
+            "label": "Sign In",
+            "altText": "",
+            "url": "/",
+            "showIcon": false,
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "primary",
+            "elementId": ""
+        }
+    ],
     "secondaryLinks": [
         {
             "type": "Button",
-            "label": "View our Dev Environment",
+            "label": "Sign Up",
             "altText": "",
             "url": "https://app.dev.lucrabudgeting.com/",
             "showIcon": false,
@@ -26,8 +36,8 @@
             "elementId": ""
         }
     ],
-    "variant": "logo-left-primary-nav-centered",
-    "colors": "bg-neutral-fg-dark",
+    "variant": "logo-left-primary-nav-right-thin",
+    "colors": "bg-light-fg-dark",
     "type": "Header",
     "title": "Lucra"
 }
