@@ -8,7 +8,8 @@ excerpt: >-
   Donec sed facilisis nibh.
 featuredImage:
   type: ImageBlock
-  url: /images/abstract-feature1.svg
+  url: >-
+    http://res.cloudinary.com/dr8cg8xmb/image/upload/v1721145934/desktop-mobile-preview.png
   altText: Thumbnail
   elementId: ''
   styles:
