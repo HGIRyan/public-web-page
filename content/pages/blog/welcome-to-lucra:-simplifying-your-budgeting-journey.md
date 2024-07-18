@@ -10,7 +10,7 @@ featuredImage:
   type: ImageBlock
   url: >-
     http://res.cloudinary.com/dr8cg8xmb/image/upload/v1721145934/desktop-mobile-preview.png
-  altText: Thumbnail
+  altText: Welcome Thumbnail
   elementId: ''
   styles:
     self:
