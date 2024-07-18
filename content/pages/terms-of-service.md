@@ -11,14 +11,7 @@ sections:
     text: >
       A service that provides advice and guidance to startups and small
       businesses.
-    actions:
-      - type: Link
-        label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
+    actions: []
     badge:
       type: Badge
       label: This is a badge
