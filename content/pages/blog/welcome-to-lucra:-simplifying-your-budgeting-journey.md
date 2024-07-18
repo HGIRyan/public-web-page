@@ -3,7 +3,7 @@ type: PostLayout
 title: 'Welcome to Lucra: Simplifying Your Budgeting Journey'
 date: '2022-10-10'
 author: content/data/person1.json
-excerpt: ''
+excerpt: Simplicity at its core
 featuredImage:
   type: ImageBlock
   url: >-
