@@ -1,25 +1,14 @@
-# Netlify Content Ops Starter 
-
-![Content Ops Starter](https://assets.stackbit.com/docs/content-ops-starter-thumb.png)
-
-Netlify starter that's made for customization with a flexible content model, component library, [visual editing](https://docs.netlify.com/visual-editor/overview/) and [Git Content Source](https://docs.netlify.com/create/content-sources/git/).
-
-**⚡ View demo:** [https://content-ops-starter.netlify.app/](https://content-ops-starter.netlify.app/)
-
-## Deploying to Netlify
-
-If you click "Deploy to Netlify" button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/content-ops-starter)
+# Lucra Content Ops Starter
 
 ## Develop with Netlify Visual Editor Locally
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3cbc77aa-a173-45ae-bb86-b0e5fe300134/deploy-status)](https://app.netlify.com/sites/lucrabudgeting/deploys)
 
 The typical development process is to begin by working locally. Clone this repository, then run `npm install` in its root directory.
 
 Run the Next.js development server:
 
 ```txt
-cd content-ops-starter
 npm run dev
 ```
 
@@ -27,7 +16,7 @@ Install the [Netlify Visual Editor CLI](https://www.npmjs.com/package/@stackbit/
 
 ```txt
 npm install -g @stackbit/cli
-stackbit dev
+npm run editor
 ```
 
 This outputs your own Netlify visual editor URL. Open this, register, or sign in, and you will be directed to Netlify's visual editor for your new project.

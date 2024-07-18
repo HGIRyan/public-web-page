@@ -19,7 +19,6 @@ export default function Header(props) {
                 'sb-component-header',
                 colors,
                 'relative',
-                'shadow-header',
                 styles?.self?.margin ? mapStyles({ padding: styles?.self?.margin }) : undefined,
                 styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : 'p-4',
                 'z-50'
@@ -41,6 +40,8 @@ function HeaderVariants(props) {
     switch (variant) {
         case 'logo-left-primary-nav-centered':
             return <HeaderLogoLeftPrimaryCentered {...rest} />;
+        case 'logo-left-primary-nav-right-thin':
+            return <HeaderLogoLeftPrimaryRightThin {...rest} />;
         case 'logo-left-primary-nav-right':
             return <HeaderLogoLeftPrimaryRight {...rest} />;
         case 'logo-centered-primary-nav-left':
@@ -110,6 +111,38 @@ function HeaderLogoLeftPrimaryRight(props) {
             {(title || logo?.url) && (
                 <div className="mr-10">
                     <SiteLogoLink title={title} logo={logo} enableAnnotations={enableAnnotations} />
+                </div>
+            )}
+            {primaryLinks.length > 0 && (
+                <ul className="hidden lg:flex lg:items-center ml-auto gap-x-10" {...(enableAnnotations && { 'data-sb-field-path': 'primaryLinks' })}>
+                    <ListOfLinks links={primaryLinks} colors={colors} enableAnnotations={enableAnnotations} />
+                </ul>
+            )}
+            {secondaryLinks.length > 0 && (
+                <ul
+                    className={classNames('hidden', 'lg:flex', 'lg:items-center', 'gap-x-2.5', primaryLinks.length > 0 ? 'ml-10' : 'ml-auto')}
+                    {...(enableAnnotations && { 'data-sb-field-path': 'secondaryLinks' })}
+                >
+                    <ListOfLinks links={secondaryLinks} enableAnnotations={enableAnnotations} />
+                </ul>
+            )}
+            {(primaryLinks.length > 0 || secondaryLinks.length > 0) && <MobileMenu {...props} />}
+        </div>
+    );
+}
+
+function HeaderLogoLeftPrimaryRightThin(props) {
+    const { title, logo, primaryLinks = [], secondaryLinks = [], colors = 'bg-light-fg-dark', enableAnnotations } = props;
+    return (
+        <div className="flex items-center relative py-2">
+            {(title || logo?.url) && (
+                <div className="mr-4">
+                    <SiteLogoLink
+                        imageClassName="logo-small"
+                        title={title}
+                        logo={{ ...logo, classNames: ['max-h-fit'] }}
+                        enableAnnotations={enableAnnotations}
+                    />
                 </div>
             )}
             {primaryLinks.length > 0 && (
@@ -240,12 +273,13 @@ function MobileMenu(props) {
     );
 }
 
-function SiteLogoLink({ title, logo, enableAnnotations }) {
+function SiteLogoLink({ title, logo, enableAnnotations, imageClassName = '' }) {
     return (
         <Link href="/" className="flex items-center">
-            {logo && <ImageBlock {...logo} {...(enableAnnotations && { 'data-sb-field-path': 'logo' })} />}
+            {/* {logo && <ImageBlock {...logo} imageClassName={imageClassName} {...(enableAnnotations && { 'data-sb-field-path': 'logo' })} />} */}
+            <img id={logo.elementId} src={logo.url} alt={logo.altText} style={{ maxHeight: '1.3rem' }} className="mr-2" />
             {title && (
-                <span className="h4" {...(enableAnnotations && { 'data-sb-field-path': 'title' })}>
+                <span className="h4 font-bold" {...(enableAnnotations && { 'data-sb-field-path': 'title' })}>
                     {title}
                 </span>
             )}
