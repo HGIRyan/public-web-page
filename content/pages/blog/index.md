@@ -17,6 +17,8 @@ topSections:
       - content/pages/blog/what-is-a-design-system.md
       - >-
         content/pages/blog/welcome-to-lucra:-simplifying-your-budgeting-journey.md
+      - >-
+        content/pages/blog/onboarding-made-easy:-setting-up-your-lucra-account.md
     showThumbnail: true
     showExcerpt: true
     showDate: true
