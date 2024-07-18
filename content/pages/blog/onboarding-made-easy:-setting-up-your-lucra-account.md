@@ -56,7 +56,7 @@ isFeatured: false
 isDraft: false
 seo:
   type: Seo
-  metaTitle: lorem-ipsum
+  metaTitle: 'Onboarding Made Easy: Setting Up Your Lucra Account'
   metaDescription: lorem-ipsum
   addTitleSuffix: false
   metaTags: []
