@@ -4,7 +4,9 @@
         "altText": "Lucra Logo",
         "styles": {
             "self": {
-                "margin": ["mr-3"],
+                "margin": [
+                    "mr-3"
+                ],
                 "borderWidth": 0
             }
         },
@@ -29,6 +31,17 @@
             "label": "Sign Up",
             "altText": "",
             "url": "https://app.dev.lucrabudgeting.com/",
+            "showIcon": false,
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "elementId": ""
+        },
+        {
+            "type": "Link",
+            "label": "See Tutorials",
+            "altText": "",
+            "url": "/blog",
             "showIcon": false,
             "icon": "arrowRight",
             "iconPosition": "right",
