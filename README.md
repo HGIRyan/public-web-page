@@ -2,6 +2,8 @@
 
 ## Develop with Netlify Visual Editor Locally
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3cbc77aa-a173-45ae-bb86-b0e5fe300134/deploy-status)](https://app.netlify.com/sites/lucrabudgeting/deploys)
+
 The typical development process is to begin by working locally. Clone this repository, then run `npm install` in its root directory.
 
 Run the Next.js development server:
