@@ -10,7 +10,7 @@
         "links": [
             {
                 "label": "Pricing",
-                "url": "/pricing",
+                "url": "#pricing",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
