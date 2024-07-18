@@ -10,7 +10,7 @@ featuredImage:
   type: ImageBlock
   url: >-
     http://res.cloudinary.com/dr8cg8xmb/image/upload/v1721326390/mobile_Sign_up_screen.png
-  altText: Thumbnail
+  altText: Mobile Setup screen thumbnail
   elementId: ''
   styles:
     self:
