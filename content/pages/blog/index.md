@@ -4,39 +4,38 @@ slug: /blog
 numOfPostsPerPage: 12
 enableSearch: true
 topSections:
-  - title:
-      text: Featured Post
-      color: text-dark
+  - type: RecentPostsSection
+    title:
       type: TitleBlock
-    subtitle: This is the subtitle
-    posts:
-      - content/pages/blog/top-ten-lessons-we-learned.md
+      text: Recent posts
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+    recentCount: 3
     showThumbnail: true
     showExcerpt: true
     showDate: true
     showAuthor: true
-    variant: big-list
+    actions: []
+    elementId: ''
+    variant: three-col-grid
     colors: bg-light-fg-dark
+    hoverEffect: thin-underline
     styles:
       self:
-        padding:
-          - pt-28
-          - pb-0
-          - pl-4
-          - pr-4
-        justifyContent: flex-start
-    type: FeaturedPostsSection
-    hoverEffect: move-up
+        justifyContent: center
 styles:
   title:
     textAlign: center
 seo:
-  metaTitle: Blog - Demo site
+  metaTitle: 'Lucra Budgeting Blog '
   metaDescription: >-
     This is the blog of the demo site where we post about technology, product,
     and design.
   socialImage: /images/img-placeholder.svg
   type: Seo
+  addTitleSuffix: true
 type: PostFeedLayout
 bottomSections: []
 postFeed:
