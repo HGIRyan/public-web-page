@@ -55,7 +55,9 @@ isDraft: false
 seo:
   type: Seo
   metaTitle: 'Welcome to Lucra: Simplifying Your Budgeting Journey'
-  metaDescription: lorem-ipsum
+  metaDescription: >-
+    Introduce Lucra, its mission, and how it differs from other budgeting apps.
+    Highlight the focus on simplicity and advanced features.
   addTitleSuffix: false
   metaTags: []
 colors: bg-light-fg-dark
