@@ -54,7 +54,7 @@ isFeatured: false
 isDraft: false
 seo:
   type: Seo
-  metaTitle: lorem-ipsum
+  metaTitle: 'Welcome to Lucra: Simplifying Your Budgeting Journey'
   metaDescription: lorem-ipsum
   addTitleSuffix: false
   metaTags: []
