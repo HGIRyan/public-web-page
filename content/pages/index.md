@@ -139,6 +139,7 @@ sections:
       opacity: 100
       url: >-
         https://res.cloudinary.com/dr8cg8xmb/image/upload/v1716072498/site-images/login-desktop-banner.png
+    elementId: pricing
 seo:
   metaTitle: Lucra Budgeting
   metaDescription: Lucra Budgeting - Budgeting made simple

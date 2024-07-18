@@ -6,15 +6,26 @@
     },
     "text": "Budgeting made simple\n",
     "primaryLinks": {
-        "title": "Product",
+        "title": "Links",
         "links": [
             {
                 "label": "Pricing",
-                "url": "/pricing",
+                "url": "#pricing",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
+            },
+            {
+                "type": "Link",
+                "label": "Blog",
+                "altText": "",
+                "url": "/blog",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": ""
             }
         ],
         "type": "FooterLinksGroup"
