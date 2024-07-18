@@ -3,9 +3,7 @@ type: PostLayout
 title: 'Welcome to Lucra: Simplifying Your Budgeting Journey'
 date: '2022-10-10'
 author: content/data/person1.json
-excerpt: >-
-  Facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper.
-  Donec sed facilisis nibh.
+excerpt: ''
 featuredImage:
   type: ImageBlock
   url: >-
