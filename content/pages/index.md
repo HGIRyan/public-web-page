@@ -145,5 +145,7 @@ seo:
   socialImage: /images/Screenshot 2024-07-16 at 10.17.56 AM.png
   type: Seo
   addTitleSuffix: false
+  metaTags:
+    - type: MetaTag
 type: PageLayout
 ---
