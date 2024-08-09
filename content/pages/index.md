@@ -165,5 +165,6 @@ seo:
         accounts, set budgets, and track spending in real-time. Start organizing
         your money today.
     - type: MetaTag
+      property: 'og:site_name'
 type: PageLayout
 ---
