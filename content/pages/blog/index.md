@@ -47,6 +47,7 @@ seo:
       content: en_US
     - type: MetaTag
       property: 'og:type'
+      content: article
 type: PostFeedLayout
 bottomSections: []
 postFeed:
