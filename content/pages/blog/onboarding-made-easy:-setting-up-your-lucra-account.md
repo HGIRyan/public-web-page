@@ -58,7 +58,7 @@ seo:
   metaDescription: >-
     Step-by-step guide on signing up, creating an account, and connecting bank
     accounts via Plaid. Explain the importance of income and expense categories.
-  addTitleSuffix: false
+  addTitleSuffix: true
   metaTags: []
 colors: bg-neutral-fg-dark
 styles:
