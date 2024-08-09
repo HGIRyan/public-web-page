@@ -9,23 +9,13 @@ sections:
       color: text-primary
     subtitle: ''
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Neque volutpat ac
-      tincidunt vitae.
+      Effortlessly manage your money with clear insights and real-time tracking.
+      No complicated setups—just straightforward budgeting that works for you.
     actions:
       - type: Button
         label: Get started
         altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-      - type: Button
-        label: Get started
-        altText: ''
-        url: /
+        url: 'https://app.lucrabudgeting.com/auth/register'
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -155,5 +145,15 @@ seo:
   socialImage: /images/Screenshot 2024-07-16 at 10.17.56 AM.png
   type: Seo
   addTitleSuffix: false
+  metaTags:
+    - type: MetaTag
+      property: 'og:title'
+      content: Lucra - The Simplest Way to Organize Your Finances
+    - type: MetaTag
+      property: ''
+      content: >-
+        budgeting app, manage finances, personal finance, expense tracker,
+        financial management, budgeting tools, money management
+    - type: MetaTag
 type: PageLayout
 ---
