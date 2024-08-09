@@ -173,5 +173,6 @@ seo:
     - type: MetaTag
       property: 'og:url'
       content: 'https://www.lucrabudgeting.com/'
+    - type: MetaTag
 type: PageLayout
 ---
