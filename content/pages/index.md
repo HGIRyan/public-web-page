@@ -155,6 +155,7 @@ seo:
         budgeting app, manage finances, personal finance, expense tracker,
         financial management, budgeting tools, money management
     - type: MetaTag
+      property: 'og:image'
     - type: MetaTag
 type: PageLayout
 ---
