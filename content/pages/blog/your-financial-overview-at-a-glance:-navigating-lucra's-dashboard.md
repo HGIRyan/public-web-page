@@ -111,4 +111,3 @@ Lucra’s dashboard also includes color-coded indicators to help you quickly ass
 Lucra’s dashboard is more than just a snapshot of your finances—it’s a powerful tool for managing your money effectively. By understanding your budget, actual, and remaining balances, making quick edits when needed, and keeping an eye on color indicators, you’ll be equipped to navigate your financial journey with ease.
 
 **Explore Lucra’s Dashboard Today:** Dive into your financial overview and start taking control of your budget with Lucra’s intuitive and user-friendly dashboard.
-
