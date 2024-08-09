@@ -155,5 +155,26 @@ seo:
         budgeting app, manage finances, personal finance, expense tracker,
         financial management, budgeting tools, money management
     - type: MetaTag
+      property: 'og:image'
+      content: >-
+        https://res.cloudinary.com/dr8cg8xmb/image/upload/v1721259232/logo-primary.png
+    - type: MetaTag
+      property: 'og:description'
+      content: >-
+        Lucra is the simplest way to manage your finances. Connect your
+        accounts, set budgets, and track spending in real-time. Start organizing
+        your money today.
+    - type: MetaTag
+      property: 'og:site_name'
+      content: Lucra Budgeting
+    - type: MetaTag
+      property: 'og:locale'
+      content: en_US
+    - type: MetaTag
+      property: 'og:url'
+      content: 'https://www.lucrabudgeting.com/'
+    - type: MetaTag
+      property: 'og:type'
+      content: website
 type: PageLayout
 ---
