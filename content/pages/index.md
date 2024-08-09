@@ -166,5 +166,6 @@ seo:
         your money today.
     - type: MetaTag
       property: 'og:site_name'
+      content: Lucra Budgeting
 type: PageLayout
 ---
