@@ -16,7 +16,7 @@ sections:
       - type: Button
         label: Get started
         altText: ''
-        url: /
+        url: 'https://app.lucrabudgeting.com/auth/register'
         showIcon: false
         icon: arrowRight
         iconPosition: right
