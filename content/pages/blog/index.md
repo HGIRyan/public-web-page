@@ -43,6 +43,7 @@ seo:
         budgeting tips, personal finance, money management, financial advice,
         saving money, Lucra blog
     - type: MetaTag
+      property: 'og:locale'
 type: PostFeedLayout
 bottomSections: []
 postFeed:
