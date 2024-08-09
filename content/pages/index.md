@@ -151,5 +151,8 @@ seo:
       content: Lucra - The Simplest Way to Organize Your Finances
     - type: MetaTag
       property: ''
+      content: >-
+        budgeting app, manage finances, personal finance, expense tracker,
+        financial management, budgeting tools, money management
 type: PageLayout
 ---
