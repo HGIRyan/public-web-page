@@ -3,9 +3,7 @@ type: PostLayout
 title: 'Onboarding Made Easy: Setting Up Your Lucra Account'
 date: '2022-10-10'
 author: content/data/person1.json
-excerpt: >-
-  Facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper.
-  Donec sed facilisis nibh.
+excerpt: Setup Screen
 featuredImage:
   type: ImageBlock
   url: >-
