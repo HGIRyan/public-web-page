@@ -169,5 +169,6 @@ seo:
       content: Lucra Budgeting
     - type: MetaTag
       property: 'og:locale'
+      content: en_US
 type: PageLayout
 ---
