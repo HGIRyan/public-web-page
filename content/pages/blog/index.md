@@ -29,7 +29,7 @@ styles:
   title:
     textAlign: center
 seo:
-  metaTitle: 'Lucra Budgeting Blog '
+  metaTitle: Lucra Blog - Tips and Insights for Smarter Budgeting
   metaDescription: >-
     This is the blog of the demo site where we post about technology, product,
     and design.
