@@ -39,6 +39,7 @@ seo:
   addTitleSuffix: true
   metaTags:
     - type: MetaTag
+    - type: MetaTag
 type: PostFeedLayout
 bottomSections: []
 postFeed:
