@@ -59,7 +59,8 @@ seo:
     Step-by-step guide on signing up, creating an account, and connecting bank
     accounts. Explaining the importance of income and expense categories.
   addTitleSuffix: true
-  metaTags: []
+  metaTags:
+    - type: MetaTag
 colors: bg-neutral-fg-dark
 styles:
   self:
