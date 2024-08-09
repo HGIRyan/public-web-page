@@ -60,7 +60,7 @@ seo:
     accounts via Plaid. Explain the importance of income and expense categories.
   addTitleSuffix: false
   metaTags: []
-colors: bg-light-fg-dark
+colors: bg-neutral-fg-dark
 styles:
   self:
     flexDirection: col
