@@ -55,7 +55,7 @@ isFeatured: false
 isDraft: false
 seo:
   type: Seo
-  metaTitle: lorem-ipsum
+  metaTitle: 'Your Financial Overview at a Glance: Navigating Lucra''s Dashboard'
   metaDescription: lorem-ipsum
   addTitleSuffix: false
   metaTags: []
