@@ -50,6 +50,7 @@ seo:
       content: article
     - type: MetaTag
       property: 'og:url'
+      content: 'https://www.lucrabudgeting.com/blog/'
 type: PostFeedLayout
 bottomSections: []
 postFeed:
