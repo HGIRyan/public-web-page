@@ -147,7 +147,7 @@ seo:
   addTitleSuffix: false
   metaTags:
     - type: MetaTag
-      property: 'og:title'
+      property: 'og:type'
       content: Lucra - The Simplest Way to Organize Your Finances
 type: PageLayout
 ---
