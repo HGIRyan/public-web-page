@@ -64,6 +64,6 @@ postFeed:
   actions: []
   elementId: null
   variant: three-col-grid
-  colors: bg-light-fg-dark
+  colors: bg-neutral-fg-dark
   hoverEffect: move-up
 ---
