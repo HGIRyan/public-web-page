@@ -37,6 +37,8 @@ seo:
     http://res.cloudinary.com/dr8cg8xmb/image/upload/v1721145934/desktop-mobile-preview.png
   type: Seo
   addTitleSuffix: true
+  metaTags:
+    - type: MetaTag
 type: PostFeedLayout
 bottomSections: []
 postFeed:
