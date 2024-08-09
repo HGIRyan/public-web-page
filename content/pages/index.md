@@ -159,5 +159,6 @@ seo:
       content: >-
         https://res.cloudinary.com/dr8cg8xmb/image/upload/v1721259232/logo-primary.png
     - type: MetaTag
+      property: 'og:site_name'
 type: PageLayout
 ---
