@@ -31,8 +31,8 @@ styles:
 seo:
   metaTitle: Lucra Blog - Tips and Insights for Smarter Budgeting
   metaDescription: >-
-    This is the blog of the demo site where we post about technology, product,
-    and design.
+    Explore budgeting tips, financial insights, and personal finance advice on
+    the Lucra blog. Learn how to manage your money more effectively.
   socialImage: /images/img-placeholder.svg
   type: Seo
   addTitleSuffix: true
