@@ -156,6 +156,8 @@ seo:
         financial management, budgeting tools, money management
     - type: MetaTag
       property: 'og:image'
+      content: >-
+        https://res.cloudinary.com/dr8cg8xmb/image/upload/v1721259232/logo-primary.png
     - type: MetaTag
 type: PageLayout
 ---
