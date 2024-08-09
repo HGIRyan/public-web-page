@@ -9,9 +9,8 @@ sections:
       color: text-primary
     subtitle: ''
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Neque volutpat ac
-      tincidunt vitae.
+      Effortlessly manage your money with clear insights and real-time tracking.
+      No complicated setups—just straightforward budgeting that works for you.
     actions:
       - type: Button
         label: Get started
