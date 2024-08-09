@@ -3,22 +3,7 @@ type: PostLayout
 title: 'Onboarding Made Easy: Setting Up Your Lucra Account'
 date: '2022-10-10'
 author: content/data/person1.json
-excerpt: >-
-  Facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper.
-  Donec sed facilisis nibh.
-featuredImage:
-  type: ImageBlock
-  url: >-
-    http://res.cloudinary.com/dr8cg8xmb/image/upload/v1721326390/mobile_Sign_up_screen.png
-  altText: Mobile Setup screen thumbnail
-  elementId: ''
-  styles:
-    self:
-      padding:
-        - pt-0
-        - pl-0
-        - pb-0
-        - pr-0
+excerpt: Setup Screen
 bottomSections:
   - type: DividerSection
     title: Divider
@@ -59,10 +44,10 @@ seo:
   metaTitle: 'Onboarding Made Easy: Setting Up Your Lucra Account'
   metaDescription: >-
     Step-by-step guide on signing up, creating an account, and connecting bank
-    accounts via Plaid. Explain the importance of income and expense categories.
-  addTitleSuffix: false
+    accounts. Explaining the importance of income and expense categories.
+  addTitleSuffix: true
   metaTags: []
-colors: bg-light-fg-dark
+colors: bg-neutral-fg-dark
 styles:
   self:
     flexDirection: col
