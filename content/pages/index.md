@@ -171,5 +171,6 @@ seo:
       property: 'og:locale'
       content: en_US
     - type: MetaTag
+      property: 'og:url'
 type: PageLayout
 ---
