@@ -55,7 +55,7 @@ isFeatured: false
 isDraft: false
 seo:
   type: Seo
-  metaTitle: 'Your Financial Overview at a Glance: Navigating Lucra''s Dashboard'
+  metaTitle: Lucra - Your Financial Overview at a Glance
   metaDescription: Lucra's dashboard is your financial command center
   addTitleSuffix: false
   metaTags: []
