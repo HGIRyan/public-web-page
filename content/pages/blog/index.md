@@ -33,7 +33,8 @@ seo:
   metaDescription: >-
     Explore budgeting tips, financial insights, and personal finance advice on
     the Lucra blog. Learn how to manage your money more effectively.
-  socialImage: /images/img-placeholder.svg
+  socialImage: >-
+    http://res.cloudinary.com/dr8cg8xmb/image/upload/v1721145934/desktop-mobile-preview.png
   type: Seo
   addTitleSuffix: true
 type: PostFeedLayout
