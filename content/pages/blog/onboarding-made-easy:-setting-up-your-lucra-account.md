@@ -101,5 +101,3 @@ Onboarding with Lucra is designed to be straightforward and intuitive, ensuring 
 
 **Ready to get started?** Sign up for Lucra today and take the first step towards a more organized financial future.
 
-
-
