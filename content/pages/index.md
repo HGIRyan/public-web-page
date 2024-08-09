@@ -164,5 +164,6 @@ seo:
         Lucra is the simplest way to manage your finances. Connect your
         accounts, set budgets, and track spending in real-time. Start organizing
         your money today.
+    - type: MetaTag
 type: PageLayout
 ---
