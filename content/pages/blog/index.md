@@ -45,6 +45,7 @@ seo:
     - type: MetaTag
       property: 'og:locale'
       content: en_US
+    - type: MetaTag
 type: PostFeedLayout
 bottomSections: []
 postFeed:
