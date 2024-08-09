@@ -4,19 +4,6 @@ title: 'Onboarding Made Easy: Setting Up Your Lucra Account'
 date: '2022-10-10'
 author: content/data/person1.json
 excerpt: Setup Screen
-featuredImage:
-  type: ImageBlock
-  url: >-
-    http://res.cloudinary.com/dr8cg8xmb/image/upload/v1721326390/mobile_Sign_up_screen.png
-  altText: Mobile Setup screen thumbnail
-  elementId: ''
-  styles:
-    self:
-      padding:
-        - pt-0
-        - pl-0
-        - pb-0
-        - pr-0
 bottomSections:
   - type: DividerSection
     title: Divider
