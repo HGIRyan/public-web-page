@@ -39,6 +39,9 @@ seo:
   addTitleSuffix: true
   metaTags:
     - type: MetaTag
+      content: >-
+        budgeting tips, personal finance, money management, financial advice,
+        saving money, Lucra blog
     - type: MetaTag
 type: PostFeedLayout
 bottomSections: []
