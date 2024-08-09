@@ -149,5 +149,6 @@ seo:
     - type: MetaTag
       property: 'og:title'
       content: Lucra - The Simplest Way to Organize Your Finances
+    - type: MetaTag
 type: PageLayout
 ---
