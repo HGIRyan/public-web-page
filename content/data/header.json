@@ -14,10 +14,10 @@
     },
     "primaryLinks": [
         {
-            "type": "Button",
-            "label": "Sign In",
+            "type": "Link",
+            "label": "Blog",
             "altText": "",
-            "url": "https://app.lucrabudgeting.com/auth/login",
+            "url": "/blog",
             "showIcon": false,
             "icon": "arrowRight",
             "iconPosition": "right",
@@ -38,18 +38,18 @@
             "elementId": ""
         },
         {
-            "type": "Link",
-            "label": "Blog",
+            "type": "Button",
+            "label": "Sign In",
             "altText": "",
-            "url": "/blog",
+            "url": "https://app.lucrabudgeting.com/auth/login",
             "showIcon": false,
             "icon": "arrowRight",
             "iconPosition": "right",
-            "style": "secondary",
+            "style": "primary",
             "elementId": ""
         }
     ],
-    "variant": "logo-left-primary-nav-right-thin",
+    "variant": "logo-left-primary-nav-centered",
     "colors": "bg-light-fg-dark",
     "type": "Header",
     "title": "Lucra"

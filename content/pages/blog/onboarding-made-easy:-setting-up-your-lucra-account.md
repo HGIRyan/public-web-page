@@ -47,7 +47,7 @@ seo:
     accounts. Explaining the importance of income and expense categories.
   addTitleSuffix: true
   metaTags: []
-colors: bg-neutral-fg-dark
+colors: bg-light-fg-dark
 styles:
   self:
     flexDirection: col

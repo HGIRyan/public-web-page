@@ -62,8 +62,7 @@ sections:
         price: $5
         details: Per Month (after 30 day trial)
         description: >-
-          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
-          accusantium doloremque.
+          Transparent
         features:
           - Feature one
           - Feature two
@@ -95,8 +94,7 @@ sections:
         price: $12
         details: Per Month (After 30 day trial)
         description: >-
-          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
-          accusantium doloremque.
+          Transparent
         features:
           - Feature one
           - Feature two
