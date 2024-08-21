@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     title:
       type: TitleBlock
-      text: The simplest way to organize your finances
+      text: The simplest way to organize your finances.....
       color: text-primary
     subtitle: ''
     text: >
@@ -61,8 +61,7 @@ sections:
         title: Basic
         price: $5
         details: Per Month (after 30 day trial)
-        description: >-
-          Transparent
+        description: Transparent
         features:
           - Feature one
           - Feature two
@@ -93,8 +92,7 @@ sections:
         title: Advanced
         price: $12
         details: Per Month (After 30 day trial)
-        description: >-
-          Transparent
+        description: Transparent
         features:
           - Feature one
           - Feature two
