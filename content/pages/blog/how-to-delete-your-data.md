@@ -31,7 +31,7 @@ bottomSections:
           - pb-3
           - pr-3
 slug: How to delete your data
-isFeatured: false
+isFeatured: true
 isDraft: false
 seo:
   type: Seo
