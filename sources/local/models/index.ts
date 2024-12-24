@@ -42,6 +42,7 @@ import { VideoBlock } from './VideoBlock';
 import { MetaTag } from './MetaTag';
 import { FooterLinksGroup } from './FooterLinksGroup';
 import { Seo } from './Seo';
+import { MarkdownTextBlock } from './MarkDownTextBlock';
 
 export const allModels = {
     BackgroundImage,
@@ -78,6 +79,7 @@ export const allModels = {
     SubmitButtonFormControl,
     TextFormControl,
     TextareaFormControl,
+    MarkdownTextBlock,
     ThemeStyle,
     ThemeStyleButton,
     ThemeStyleHeading,
