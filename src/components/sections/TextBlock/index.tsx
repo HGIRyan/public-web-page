@@ -1,53 +1,128 @@
-import * as React from 'react';
-import classNames from 'classnames';
-import ReactMarkdown from 'react-markdown';
+import { Model } from '@stackbit/types';
 
-import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
-import { getDataAttrs } from '../../../utils/get-data-attrs';
-import BackgroundImage from '../../atoms/BackgroundImage';
-
-export default function MarkdownTextSection(props) {
-    const {
-        elementId,
-        className,
-        colors = 'bg-light-fg-dark',
-        backgroundImage,
-        styles = {},
-        label,
-        hideLabel = false,
-        markdownContent,
-        alignment = 'left',
-        isHighlighted = false
-    } = props;
-
-    return (
-        <div
-            id={elementId}
-            className={classNames(
-                'sb-component',
-                'sb-component-markdown-text-section',
-                className,
-                colors,
-                'relative',
-                styles?.margin ? mapStyles({ margin: styles?.margin }) : undefined,
-                styles?.padding ? mapStyles({ padding: styles?.padding }) : 'px-4 py-28'
-            )}
-            {...getDataAttrs(props)}
-        >
-            {backgroundImage && <BackgroundImage {...backgroundImage} className="absolute inset-0" />}
-            <div
-                className={classNames('w-full max-w-7xl mx-auto relative', {
-                    'text-left': alignment === 'left',
-                    'text-center': alignment === 'center',
-                    'text-right': alignment === 'right',
-                    highlight: isHighlighted
-                })}
-            >
-                {label && !hideLabel && <h2 className="sb-label mb-4">{label}</h2>}
-                <div className="sb-markdown-content prose">
-                    <ReactMarkdown>{markdownContent}</ReactMarkdown>
-                </div>
-            </div>
-        </div>
-    );
-}
+export const MarkdownSection: Model = {
+    type: 'object',
+    name: 'MarkdownSection',
+    label: 'Markdown Section',
+    labelField: 'title.text',
+    fields: [
+        {
+            type: 'model',
+            name: 'title',
+            label: 'Title',
+            required: false,
+            hidden: false,
+            localized: false,
+            models: ['TitleBlock']
+        },
+        {
+            type: 'model',
+            name: 'markdownContent',
+            label: 'Markdown Content',
+            required: true,
+            hidden: false,
+            localized: false,
+            models: ['MarkdownTextBlock']
+        },
+        {
+            type: 'enum',
+            name: 'variant',
+            label: 'Layout Variant',
+            required: false,
+            default: 'default',
+            hidden: false,
+            localized: false,
+            options: [
+                { label: 'Default', value: 'default' },
+                { label: 'With Background', value: 'background' },
+                { label: 'Two-Column', value: 'two-column' }
+            ],
+            group: 'styles',
+            controlType: 'dropdown'
+        },
+        {
+            type: 'enum',
+            name: 'colors',
+            label: 'Colors',
+            description: 'The color theme of the section',
+            required: false,
+            default: 'bg-light-fg-dark',
+            hidden: false,
+            localized: false,
+            options: [
+                {
+                    label: 'Light background, dark foreground',
+                    value: 'bg-light-fg-dark',
+                    textColor: '$dark',
+                    backgroundColor: '$light',
+                    borderColor: '#ececec'
+                },
+                {
+                    label: 'Dark background, light foreground',
+                    value: 'bg-dark-fg-light',
+                    textColor: '$light',
+                    backgroundColor: '$dark',
+                    borderColor: '#ececec'
+                }
+            ],
+            group: 'styles',
+            controlType: 'palette'
+        },
+        {
+            type: 'string',
+            name: 'elementId',
+            label: 'Element ID',
+            description: 'Unique ID for this section, useful for linking or scrolling.',
+            required: false,
+            default: '',
+            hidden: false,
+            localized: false,
+            group: 'settings'
+        },
+        {
+            type: 'boolean',
+            name: 'fullWidth',
+            label: 'Full Width',
+            description: 'Expand section to the full width of the screen.',
+            required: false,
+            default: false,
+            hidden: false,
+            localized: false
+        },
+        {
+            type: 'style',
+            name: 'styles',
+            label: 'Styles',
+            description: 'Customizable styles for spacing and alignment.',
+            required: false,
+            hidden: false,
+            localized: false,
+            styles: {
+                self: {
+                    margin: ['tw0:96'],
+                    padding: ['tw0:96'],
+                    alignItems: ['center', 'flex-start', 'flex-end']
+                },
+                markdownContent: {
+                    fontStyle: '*',
+                    fontWeight: ['400', '500', '700'],
+                    textDecoration: '*',
+                    textAlign: '*'
+                }
+            }
+        }
+    ],
+    thumbnail: 'https://assets.stackbit.com/components/models/thumbnails/default.png',
+    fieldGroups: [
+        {
+            name: 'styles',
+            label: 'Styles',
+            icon: 'palette'
+        },
+        {
+            name: 'settings',
+            label: 'Settings',
+            icon: 'gear'
+        }
+    ]
+};

@@ -43,7 +43,7 @@ import { MetaTag } from './MetaTag';
 import { FooterLinksGroup } from './FooterLinksGroup';
 import { Seo } from './Seo';
 import { MarkdownTextBlock } from './MarkDownTextBlock';
-import MarkdownTextSection from 'src/components/sections/TextBlock';
+import { MarkdownSection } from 'src/components/sections/TextBlock';
 
 export const allModels = {
     BackgroundImage,
@@ -81,7 +81,7 @@ export const allModels = {
     TextFormControl,
     TextareaFormControl,
     MarkdownTextBlock,
-    MarkdownTextSection,
+    MarkdownSection,
     ThemeStyle,
     ThemeStyleButton,
     ThemeStyleHeading,
