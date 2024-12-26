@@ -35,8 +35,8 @@ isFeatured: false
 isDraft: false
 seo:
   type: Seo
-  metaTitle: lorem-ipsum
-  metaDescription: lorem-ipsum
+  metaTitle: How to delete your data
+  metaDescription: How to delete your data
   addTitleSuffix: false
   metaTags: []
 colors: bg-light-fg-dark
