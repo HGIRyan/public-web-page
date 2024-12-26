@@ -35,7 +35,7 @@ isFeatured: false
 isDraft: false
 seo:
   type: Seo
-  metaTitle: ''
+  metaTitle: How to delete your data
   metaDescription: lorem-ipsum
   addTitleSuffix: false
   metaTags: []
