@@ -36,7 +36,7 @@ isDraft: false
 seo:
   type: Seo
   metaTitle: Privacy Policy
-  metaDescription: lorem-ipsum
+  metaDescription: Privacy Policy
   addTitleSuffix: false
   metaTags: []
 colors: bg-light-fg-dark
