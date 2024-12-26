@@ -35,7 +35,7 @@ isFeatured: false
 isDraft: false
 seo:
   type: Seo
-  metaTitle: lorem-ipsum
+  metaTitle: Privacy Policy
   metaDescription: lorem-ipsum
   addTitleSuffix: false
   metaTags: []
