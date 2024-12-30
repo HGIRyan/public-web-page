@@ -29,7 +29,7 @@ bottomSections:
           - pb-3
           - pr-3
 slug: Lucra Privacy Policy
-isFeatured: false
+isFeatured: true
 isDraft: false
 seo:
   type: Seo
