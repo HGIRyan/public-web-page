@@ -7,7 +7,7 @@ excerpt: Lucra Privacy Policy
 featuredImage:
   type: ImageBlock
   url: /images/abstract-feature1.svg
-  altText: Lucra
+  altText: Lucra Privacy Policy
   elementId: ''
   styles:
     self:
