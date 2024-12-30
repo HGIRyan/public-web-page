@@ -3,13 +3,11 @@ type: PostLayout
 title: Lucra Privacy Policy
 date: '2022-10-10'
 author: content/data/person1.json
-excerpt: >-
-  Facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper.
-  Donec sed facilisis nibh.
+excerpt: Lucra Privacy Policy
 featuredImage:
   type: ImageBlock
   url: /images/abstract-feature1.svg
-  altText: Thumbnail
+  altText: Lucra Privacy Policy
   elementId: ''
   styles:
     self:
@@ -31,12 +29,12 @@ bottomSections:
           - pb-3
           - pr-3
 slug: Lucra Privacy Policy
-isFeatured: false
+isFeatured: true
 isDraft: false
 seo:
   type: Seo
-  metaTitle: lorem-ipsum
-  metaDescription: lorem-ipsum
+  metaTitle: Privacy Policy
+  metaDescription: Privacy Policy
   addTitleSuffix: false
   metaTags: []
 colors: bg-light-fg-dark
