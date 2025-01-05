@@ -7,7 +7,7 @@ sections:
       type: TitleBlock
       text: Terms Of Service
       color: text-dark
-    subtitle: Lucra ToS
+    subtitle: ''
     text: >+
 
 
